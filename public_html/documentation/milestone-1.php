@@ -18,7 +18,7 @@
 			<li><strong>Name</strong>: John Murphy</li>
 			<li><strong>Gender</strong>: Male</li>
 			<li><strong>Age</strong>: 42</li>
-			<li><strong>Job</strong>: Entreprenuer, owns/operates a startup company that is quickly growing.</li>
+			<li><strong>Job</strong>: Entreprenuer, owns/operates the startup company VRWORLD.com which is a new player in the Virtual Reality Industry. </li>
 			<li><strong>Technology</strong>:
 				<ul>
 					<li>Laptop:Dell Inspiron 17.3" Intel Core i7 8GB Memory 2TB hard Drive -Silver</li>
@@ -27,21 +27,21 @@
 			</li>
 			<li><strong>Attitude</strong>:
 			<ul>
-				<li>Always busy, doesn't have time to waste.</li>
+				<li>Always busy, doesn't have time to spare to look through dozens of resumes.</li>
 				<li>Highly motivated and a bit of a workoholic. </li>
 			</ul>
 			</li>
 			<li><strong>Needs/Goals</strong>:
 			<ul>
-				<li>Would like to continue to expand his business and needs a better website.</li>
-				<li>Looking to hire an employee to build his website.</li>
+				<li>Would like to continue to expand his business and needs to keep the branding and information on the websites up to date and consistantly updated to reflect any news or product releases.</li>
+				<li>Looking to hire an employee to build his website, ideally a full stack web developer to manage both the front and back ends as well as security.</li>
 				<li>Needs to quickly be able to see examples of the potential employee's work quickly because he doesn't have a lot of time to be browsing resumes.</li>
 			</ul>
 			</li>
 			<li><strong>Frustrations</strong>:
 			<ul>
-				<li>Doesn't have a lot of time to look at resumes.</li>
-				<li>Old website does not match the vision for the company.</li>
+				<li>Doesn't have a lot of time to look at resumes, and would rather be able to see someone's skills first hand rather than what it says on paper.</li>
+				<li>Old website does not match the vision for the company, and is behind on the latest breakthroughs that the company has made technologically.</li>
 			</ul>
 			</li>
 			<li><strong></strong>:</li>
