@@ -44,7 +44,6 @@
 				<li>Old website does not match the vision for the company, and is behind on the latest breakthroughs that the company has made technologically.</li>
 			</ul>
 			</li>
-			<li><strong></strong>:</li>
 		</ul>
 
 	</body>
