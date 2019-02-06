@@ -45,6 +45,7 @@
 			</ul>
 			</li>
 		</ul>
+		<img src="mobileMockup.png" alt="Mobile Mockup"/>
 
 	</body>
 </html>
