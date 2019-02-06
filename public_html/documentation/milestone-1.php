@@ -21,7 +21,7 @@
 			<li><strong>Job</strong>: Entreprenuer, owns/operates the startup company VRWORLD.com which is a new player in the Virtual Reality Industry. </li>
 			<li><strong>Technology</strong>:
 				<ul>
-					<li>Laptop:Dell Inspiron 17.3" Intel Core i7 8GB Memory 2TB hard Drive -Silver</li>
+					<li>Laptop:Dell Inspiron 17.3" Intel Core i7 8GB Memory 2TB hard Drive -Silver Windows 10</li>
 					<li>Phone: Samsung Galaxy S9+</li>
 				</ul>
 			</li>
@@ -46,7 +46,7 @@
 			</li>
 		</ul>
 		<div><img src="onlineMockup.png" alt="Web Mockup"/></div>
-		<div><img src="mobile layout.png" alt="Mockup Mobile"/></div>
+		<div><img src="mobile layout.png" alt="Mobile Mockup"/></div>
 
 	</body>
 </html>
