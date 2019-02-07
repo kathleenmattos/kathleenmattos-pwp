@@ -45,8 +45,5 @@
 			</ul>
 			</li>
 		</ul>
-		<div><img src="onlineMockup.png" alt="Web Mockup"/></div>
-		<div><img src="mobile layout.png" alt="Mobile Mockup"/></div>
-
 	</body>
 </html>
