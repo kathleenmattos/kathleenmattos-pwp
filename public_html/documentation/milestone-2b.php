@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title>KM PWP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -48,8 +49,8 @@
 						<!--grid row-->
 						<div class="row">
 							<!--column-->
-							<div class="col-md-12 mb-4 white-text">
-								<h1 class="h1-responsive white-text text-uppercase font-weight-bold mb-0 pt-md-5">Kathleen Mattos</h1>
+							<div class="col-md-12 mb-4 white-text text-right">
+								<!--todo insert blurb-->
 							</div>
 						</div>
 					</div>

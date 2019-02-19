@@ -1,4 +1,39 @@
+html,
+body,
+header,
+.view {
+	height: 100%;
+}
+
+
 
 #backgroundImage {
-	background-image: url("Placeholder.jpg");
+	background-image: url("http://www.hutterites.org/wp-content/uploads/2012/03/placeholder.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
+
+@media (max-width: 740px) {
+	html,
+	body,
+	header,
+	.view {
+		height: 100vh;
+	}
+}
+
+.top-nav-collapse {
+	background-color: #390f3e !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+	background: transparent !important;
+}
+
+@media (max-width: 991px) {
+	.navbar:not(.top-nav-collapse) {
+		background: #390f3e !important;
+	}
+}
+
