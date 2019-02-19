@@ -39,7 +39,22 @@
 						</div>
 					</div>
 				</nav>
-		<!--------------------End of navbar-------------------->
+			<!-------------------Full page background image------------------------->
+			<div class="view" id="backgroundImage">
+				<!--Mask and flexbox-->
+				<div class="mask rgba-black-light align-items-center">
+					<!--content-->
+					<div class="container">
+						<!--grid row-->
+						<div class="row">
+							<!--column-->
+							<div class="col-md-12 mb-4 white-text">
+								<h1 class="h1-responsive white-text text-uppercase font-weight-bold mb-0 pt-md-5">Kathleen Mattos</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>
 
 	<!-----------------------About Me----------------------------->
