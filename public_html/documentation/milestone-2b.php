@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
+
 				<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
 					<a class="navbar-brand" href="#">Kathleen Mattos</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navBarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,56 @@
 						</ul>
 					</div>
 				</nav>
+			<div class="jumbotron jumbotron-fluid" id="firstImpression">
+				<div class="container py-5">
+					<h1 class="display-4">Fluid jumbotron</h1>
+					<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+				</div>
+			</div>
+			<div class="container">
 			</div>
 		</header>
+
+	<!--About Me-->
 		<section id="aboutMe">
 			<div class="container">
 				<h4>About Me</h4>
-				<p> placeholder text</p>
+				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.
+
+					Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .
+				</p>
+			</div>
+		</section>
+
+		<!--Skills-->
+		<section id="skills">
+			<div class="container">
+				<h4>Skills</h4>
+
+				<!--Add skill chart thing-->
+
+			</div>
+		</section>
+
+		<!--Portfolio-->
+		<section id="portfolio">
+			<div class="container">
+				<h4>Portfolio</h4>
+
+			</div>
+		</section>
+
+		<!--Contact Me-->
+		<section id="contactMe">
+			<div class="container">
+				<h4>Contact Me</h4>
+			</div>
+		</section>
+
+		<!--Find Me/ footer?-->
+		<section id="findMe">
+			<div class="container">
+				<h4>Find Me</h4>
 			</div>
 		</section>
 	</body>
