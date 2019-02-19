@@ -14,40 +14,35 @@
 	</head>
 	<body>
 		<header>
-
-				<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-					<a class="navbar-brand" href="#">Kathleen Mattos</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navBarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-						<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="#">About Me </a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Skills</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Portfolio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#">Contact Me</a>
-							</li>
-						</ul>
+		<!------------------Navbar------------------------>
+				<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+					<div class="container">
+						<a class="navbar-brand" href="#">Kathleen Mattos</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedConentent-7" aria-controls="navBarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="#">About Me </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Skills</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Portfolio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link disabled" href="#">Contact Me</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</nav>
-			<div class="jumbotron jumbotron-fluid" id="firstImpression">
-				<div class="container py-5">
-					<h1 class="display-4">Fluid jumbotron</h1>
-					<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-				</div>
-			</div>
-			<div class="container">
-			</div>
+		<!--------------------End of navbar-------------------->
 		</header>
 
-	<!--About Me-->
+	<!-----------------------About Me----------------------------->
 		<section id="aboutMe">
 			<div class="container">
 				<h4>About Me</h4>
@@ -90,5 +85,6 @@
 			</div>
 		</section>
 	</body>
+
 </html>
 
