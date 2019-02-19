@@ -83,6 +83,57 @@
 		<section id="portfolio">
 			<div class="container">
 				<h4>Portfolio</h4>
+				<!--card deck-->
+				<div class="card deck">
+					<!--card-->
+					<div class="card mb-4">
+						<!--card image-->
+						<div class="view overlay">
+							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
+						</div>
+						<!--card content-->
+						<div class="card-body">
+							<!--title-->
+							<h4 class="card-title"> project 1</h4>
+							<!--text-->
+							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+							<!--button-->
+							<button type="button" class="btn btn-primary btn-md">Button</button>
+						</div>
+					</div>
+					<!--card-->
+					<div class="card mb-4">
+						<!--card image-->
+						<div class="view overlay">
+							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
+						</div>
+						<!--card content-->
+						<div class="card-body">
+							<!--title-->
+							<h4 class="card-title"> project 1</h4>
+							<!--text-->
+							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+							<!--button-->
+							<button type="button" class="btn btn-primary btn-md">Button</button>
+						</div>
+					</div>					<!--card-->
+					<div class="card mb-4">
+						<!--card image-->
+						<div class="view overlay">
+							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
+						</div>
+						<!--card content-->
+						<div class="card-body">
+							<!--title-->
+							<h4 class="card-title"> project 1</h4>
+							<!--text-->
+							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+							<!--button-->
+							<button type="button" class="btn btn-primary btn-md">Button</button>
+						</div>
+					</div>
+
+				</div>
 
 			</div>
 		</section>
