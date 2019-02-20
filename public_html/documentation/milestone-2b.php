@@ -84,9 +84,9 @@
 			<div class="container">
 				<h4>Portfolio</h4>
 				<!--card deck-->
-				<div class="card deck">
+				<div class="card deck row my-5">
 					<!--card-->
-					<div class="card mb-4">
+					<div class="card mb-4 col-md-4">
 						<!--card image-->
 						<div class="view overlay">
 							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
@@ -102,7 +102,7 @@
 						</div>
 					</div>
 					<!--card-->
-					<div class="card mb-4">
+					<div class="card mb-4 col-md-4">
 						<!--card image-->
 						<div class="view overlay">
 							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
@@ -116,8 +116,9 @@
 							<!--button-->
 							<button type="button" class="btn btn-primary btn-md">Button</button>
 						</div>
-					</div>					<!--card-->
-					<div class="card mb-4">
+					</div>
+					<!--card-->
+					<div class="card mb-4 col-md-4">
 						<!--card image-->
 						<div class="view overlay">
 							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
