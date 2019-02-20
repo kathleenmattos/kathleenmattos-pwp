@@ -23,7 +23,7 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-							<ul class="navbar-nav mr-auto">
+							<ul class="navbar-nav ml-auto">
 								<li class="nav-item">
 									<a class="nav-link" href="#">About Me </a>
 								</li>
@@ -34,7 +34,7 @@
 									<a class="nav-link" href="#">Portfolio</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link disabled" href="#">Contact Me</a>
+									<a class="nav-link" href="#">Contact Me</a>
 								</li>
 							</ul>
 						</div>
@@ -84,56 +84,17 @@
 			<div class="container">
 				<h4>Portfolio</h4>
 				<!--card deck-->
-				<div class="card deck row my-5">
-					<!--card-->
-					<div class="card mb-4 col-md-4">
-						<!--card image-->
-						<div class="view overlay">
-							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
-						</div>
-						<!--card content-->
-						<div class="card-body">
-							<!--title-->
-							<h4 class="card-title"> project 1</h4>
-							<!--text-->
-							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-							<!--button-->
-							<button type="button" class="btn btn-primary btn-md">Button</button>
-						</div>
-					</div>
-					<!--card-->
-					<div class="card mb-4 col-md-4">
-						<!--card image-->
-						<div class="view overlay">
-							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
-						</div>
-						<!--card content-->
-						<div class="card-body">
-							<!--title-->
-							<h4 class="card-title"> project 1</h4>
-							<!--text-->
-							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-							<!--button-->
-							<button type="button" class="btn btn-primary btn-md">Button</button>
-						</div>
-					</div>
-					<!--card-->
-					<div class="card mb-4 col-md-4">
-						<!--card image-->
-						<div class="view overlay">
-							<img class="card-img-top img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face 1">
-						</div>
-						<!--card content-->
-						<div class="card-body">
-							<!--title-->
-							<h4 class="card-title"> project 1</h4>
-							<!--text-->
-							<p class="card-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-							<!--button-->
-							<button type="button" class="btn btn-primary btn-md">Button</button>
-						</div>
-					</div>
-
+				<div class="col-md-4 p-3">
+					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face One">
+					<p class="bg-light border rounded text-wrap my-2 py-2">Open the door, let me out, let me out, let me-out, let me-aow, let meaow, meaow!</p>
+				</div>
+				<div class="col-md-4 p-3">
+					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
+					<p class="bg-light border rounded text-wrap my-2 py-2">More napping, more napping all the napping is exhausting jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed.</p>
+				</div>
+				<div class="col-md-4 p-3">
+					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Gentleman Cat">
+					<p class="bg-light border rounded text-wrap my-2 py-2">I will ruin the couch with my claws attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem?</p>
 				</div>
 
 			</div>
