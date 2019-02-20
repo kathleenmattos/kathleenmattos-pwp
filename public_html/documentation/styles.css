@@ -37,3 +37,12 @@ header,
 	}
 }
 
+.navbar-brand {
+	display: inline-block;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 3rem;
+	line-height: inherit;
+	white-space: nowrap;
+}

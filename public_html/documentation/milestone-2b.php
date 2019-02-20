@@ -60,7 +60,7 @@
 
 	<!-----------------------About Me----------------------------->
 		<section id="aboutMe">
-			<div class="container">
+			<div class="container bg-light border rounded text-wrap my-5 py-5">
 				<h4>About Me</h4>
 				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.
 
