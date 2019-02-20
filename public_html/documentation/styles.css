@@ -4,7 +4,9 @@ header,
 .view {
 	height: 100%;
 }
-
+body {
+	background-color: #56175e;
+}
 
 
 #backgroundImage {
@@ -67,14 +69,14 @@ Contact Form
 	margin-bottom: 8%;
 	margin-top: -10%;
 	text-align: center;
-	color: #0062cc;
+	color: #363636;
 }
 .contact-form .btnContact {
 	width: 50%;
 	border: none;
 	border-radius: 1rem;
 	padding: 1.5%;
-	background: #dc3545;
+	background: #de0506;
 	font-weight: 600;
 	color: #fff;
 	cursor: pointer;

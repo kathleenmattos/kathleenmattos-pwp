@@ -11,8 +11,11 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	</head>
+
 	<body>
 		<header>
 		<!------------------Navbar------------------------>
@@ -69,9 +72,9 @@
 			</div>
 		</section>
 
-		<!--Skills-->
+		<!------------------Skills------------------------------------->
 		<section id="skills">
-			<div class="container">
+			<div class="container bg-light border rounded text-wrap my-5 py-5">
 				<h4>Skills</h4>
 
 				<!--Add skill chart thing-->
@@ -79,30 +82,31 @@
 			</div>
 		</section>
 
-		<!--Portfolio-->
+		<!---------------------Portfolio---------------------------->
 		<section id="portfolio">
-			<div class="container">
+			<div class="container bg-light border rounded text-wrap my-5 py-5">
 				<h4>Portfolio</h4>
 				<!--card deck-->
-				<div class="col-md-4 p-3">
-					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face One">
-					<p class="bg-light border rounded text-wrap my-2 py-2">Open the door, let me out, let me out, let me-out, let me-aow, let meaow, meaow!</p>
+				<div class="row text-center my-5">
+					<div class="col-md-4 p-3">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face One">
+						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
+					</div>
+					<div class="col-md-4 p-3">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
+						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
+					</div>
+					<div class="col-md-4 p-3">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Gentleman Cat">
+						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
+					</div>
 				</div>
-				<div class="col-md-4 p-3">
-					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
-					<p class="bg-light border rounded text-wrap my-2 py-2">More napping, more napping all the napping is exhausting jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed.</p>
-				</div>
-				<div class="col-md-4 p-3">
-					<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Gentleman Cat">
-					<p class="bg-light border rounded text-wrap my-2 py-2">I will ruin the couch with my claws attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem?</p>
-				</div>
-
 			</div>
 		</section>
 
 		<!--Contact Me-->
 		<section id="contactMe">
-			<div class="container">
+			<div class="container bg-light border rounded text-wrap my-5 py-5">
 				<div class="container contact-form">
 					<div class="contact-image">
 						<img src="Placeholder.jpg" alt="placeholder"/>
@@ -137,9 +141,8 @@
 
 		<!--Find Me/ footer?-->
 		<section id="findMe">
-			<div class="container">
+			<div class="container-fluid text-center bg-secondary text-white py-3 mx-3">
 				<h4>Find Me</h4>
-			</div>
 		</section>
 	</body>
 
