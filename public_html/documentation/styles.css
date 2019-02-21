@@ -7,6 +7,10 @@ header,
 body {
 	background-color: #56175e;
 }
+.navbar-brand {
+
+	font-size: 4rem;
+}
 
 
 #backgroundImage {
