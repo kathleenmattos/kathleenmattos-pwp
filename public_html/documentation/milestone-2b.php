@@ -63,7 +63,7 @@
 
 	<!-----------------------About Me----------------------------->
 		<section id="aboutMe">
-			<div class="container bg-light border rounded text-wrap my-5 py-5">
+			<div class="container bg-info border rounded text-wrap my-5 py-5">
 				<h4>About Me</h4>
 				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.
 
@@ -74,17 +74,26 @@
 
 		<!------------------Skills------------------------------------->
 		<section id="skills">
-			<div class="container bg-light border rounded text-wrap my-5 py-5">
+			<div class="container bg-info border rounded text-wrap my-5 py-5">
 				<h4>Skills</h4>
 
 				<!--Add skill chart thing-->
-
+				<div class="row text-center my-5">
+					<div class="col-md-6">
+					<h5>Tech </h5>
+						<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian.</p>
+						</div>
+					<div class="col-md-6">
+						<h5>soft skills</h5>
+						<p>Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!---------------------Portfolio---------------------------->
 		<section id="portfolio">
-			<div class="container bg-light border rounded text-wrap my-5 py-5">
+			<div class="container bg-info border rounded text-wrap my-5 py-5">
 				<h4>Portfolio</h4>
 				<!--card deck-->
 				<div class="row text-center my-5">
@@ -106,13 +115,9 @@
 
 		<!--Contact Me-->
 		<section id="contactMe">
-			<div class="container bg-light border rounded text-wrap my-5 py-5">
-				<div class="container contact-form">
-					<div class="contact-image">
-						<img src="Placeholder.jpg" alt="placeholder"/>
-					</div>
+				<div class="container contact-form bg-info border rounded text-wrap">
 					<form method="post">
-						<h3>Drop Us a Message</h3>
+						<h3>Send Me a Message</h3>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
@@ -136,12 +141,11 @@
 						</div>
 					</form>
 				</div>
-			</div>
 		</section>
 
 		<!--Find Me/ footer?-->
 		<section id="findMe">
-			<div class="container-fluid text-center bg-secondary text-white py-3 mx-3">
+			<div class="container-fluid text-center bg-dark text-white py-3 mx-3">
 				<h4>Find Me</h4>
 		</section>
 	</body>

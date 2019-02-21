@@ -8,7 +8,6 @@ body {
 	background-color: #56175e;
 }
 .navbar-brand {
-
 	font-size: 4rem;
 }
 
@@ -29,17 +28,14 @@ body {
 	}
 }
 
-.top-nav-collapse {
-	background-color: #390f3e !important;
-}
 
-.navbar:not(.top-nav-collapse) {
+/*.navbar:not(.top-nav-collapse) {
 	background: transparent !important;
-}
+}*/
 
 @media (max-width: 991px) {
 	.navbar:not(.top-nav-collapse) {
-		background: #390f3e !important;
+		background: rgba(69, 18, 75, 1) !important;
 	}
 }
 
@@ -55,14 +51,7 @@ Contact Form
 .contact-form .form-control{
 	border-radius:1rem;
 }
-.contact-image{
-	text-align: center;
-}
-.contact-image img{
-	border-radius: 6rem;
-	width: 11%;
-	margin-top: -3%;
-}
+
 .contact-form form{
 	padding: 14%;
 }
@@ -89,7 +78,7 @@ Contact Form
 {
 	width: 50%;
 	border-radius: 1rem;
-	padding: 1.5%;
+	padding: 2%;
 	color: #fff;
 	background-color: #0062cc;
 	border: none;
