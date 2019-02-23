@@ -149,10 +149,9 @@
 			<div class="container-fluid text-center bg-dark text-white py-3">
 				<div class="row d-flex justify-content-center align-items-center pl-2">
 					<h4>Find Me</h4>
-					<a href="https://github.com/kathleenmattos"><i class="fab fa-github"></i></a>
-					<a href="https://www.linkedin.com/in/kathleenmattos/"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/kathleenmattos" class="ml-2 github"><span class="links"><i class="fab fa-github"></i></span></a>
+					<a href="https://www.linkedin.com/in/kathleenmattos/" class="ml-2 linkedin"><span class="links"><i class="fab fa-linkedin"></i></span></a>
 				</div>
-
 		</section>
 	</body>
 
