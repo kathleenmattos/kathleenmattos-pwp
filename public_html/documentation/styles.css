@@ -4,9 +4,7 @@ header,
 .view {
 	height: 100%;
 }
-body {
-	background-color: #56175e;
-}
+
 .navbar-brand {
 	font-size: 4rem;
 }
@@ -29,9 +27,9 @@ body {
 }
 
 
-/*.navbar:not(.top-nav-collapse) {
+.navbar:not(.top-nav-collapse) {
 	background: transparent !important;
-}*/
+}
 
 @media (max-width: 991px) {
 	.navbar:not(.top-nav-collapse) {
@@ -83,4 +81,10 @@ Contact Form
 	background-color: #0062cc;
 	border: none;
 	cursor: pointer;
+}
+
+
+/*     Background colors      */
+#aboutMe {
+	background-color: #420c66;
 }
