@@ -41,17 +41,17 @@ header,
 Contact Form
  */
 .contact-form{
-	background: #fff;
-	margin-top: 10%;
-	margin-bottom: 5%;
+	background: #8c8c8c;
+	/*margin-top: 10%;
+	margin-bottom: 5%;*/
 	width: 70%;
 }
 .contact-form .form-control{
-	border-radius:1rem;
+	border: none;
 }
 
 .contact-form form{
-	padding: 14%;
+	padding: 10%;
 }
 .contact-form form .row{
 	margin-bottom: -7%;
@@ -85,18 +85,19 @@ Contact Form
 
 
 /*     Background colors      */
-#aboutMe {
+#aboutMe,
+#skills,
+#portfolio,
+#contactMe  {
 	background-color: #424242;
+}
+
+#findMe {
+	background-color: black;
 }
 
 .links {
 	color: #f5f5f5;
 }
 
-.navbar-toggler {
-	color: lime;
-}
 
-#skills {
-	background-color: #02ccd6;
-}

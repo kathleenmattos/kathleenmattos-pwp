@@ -66,7 +66,7 @@
 
 	<!-----------------------About Me----------------------------->
 		<section id="aboutMe">
-			<div class="container text-white text-wrap py-5">
+			<div class="container text-white text-wrap py-5 px-5">
 				<h3>About Me</h3>
 				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
 				<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
@@ -75,7 +75,7 @@
 
 		<!------------------Skills------------------------------------->
 		<section id="skills">
-			<div class="container text-wrap py-5">
+			<div class="container text-wrap text-white py-5 px-5">
 				<h3>Skills</h3>
 
 				<!--Add skill chart thing-->
@@ -94,8 +94,8 @@
 
 		<!---------------------Portfolio---------------------------->
 		<section id="portfolio">
-			<div class="container text-wrap my-5 py-5">
-				<h4>Portfolio</h4>
+			<div class="container text-wrap text-white px-5 py-5">
+				<h3>Portfolio</h3>
 				<!--card deck-->
 				<div class="row text-center my-5">
 					<div class="col-md-4 p-3">
@@ -116,7 +116,7 @@
 
 		<!--Contact Me-->
 		<section id="contactMe">
-				<div class="container contact-form bg-info border rounded text-wrap">
+				<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
 					<form method="post">
 						<h3>Send Me a Message</h3>
 						<div class="row">
@@ -146,7 +146,7 @@
 
 		<!--Find Me/ footer?-->
 		<section id="findMe">
-			<div class="container-fluid text-center bg-dark text-white py-3">
+			<div class="container-fluid text-center text-white py-3">
 				<div class="row d-flex justify-content-center align-items-center pl-2">
 					<h4>Find Me</h4>
 					<a href="https://github.com/kathleenmattos" class="ml-2 github"><span class="links"><i class="fab fa-github"></i></span></a>
