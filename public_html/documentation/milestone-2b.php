@@ -75,8 +75,8 @@
 
 		<!------------------Skills------------------------------------->
 		<section id="skills">
-			<div class="container text-wrap my-5 py-5">
-				<h4>Skills</h4>
+			<div class="container text-wrap py-5">
+				<h3>Skills</h3>
 
 				<!--Add skill chart thing-->
 				<div class="row text-center my-5">
@@ -94,7 +94,7 @@
 
 		<!---------------------Portfolio---------------------------->
 		<section id="portfolio">
-			<div class="container bg-info border rounded text-wrap my-5 py-5">
+			<div class="container text-wrap my-5 py-5">
 				<h4>Portfolio</h4>
 				<!--card deck-->
 				<div class="row text-center my-5">
