@@ -7,6 +7,7 @@ header,
 
 .navbar-brand {
 	font-size: 4rem;
+	color: white;
 }
 
 
@@ -26,6 +27,9 @@ header,
 	}
 }
 
+.top-nav-collapse {
+	background-color: #78909c !important;
+}
 
 .navbar:not(.top-nav-collapse) {
 	background: transparent !important;
