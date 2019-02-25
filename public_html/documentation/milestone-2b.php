@@ -47,7 +47,7 @@
 					</div>
 				</nav> -->
 
-
+		<!-- try sticky top and check out bootstrap examples-->
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar px-4 shadow-sm p-3 mb-5 bg-white">
 				<a class="navbar-brand text-white" href="#">Kathleen Mattos</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
