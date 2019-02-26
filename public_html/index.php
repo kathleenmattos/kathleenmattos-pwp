@@ -181,6 +181,7 @@
 					<a href="https://github.com/kathleenmattos" class="ml-2 github"><span class="links"><i class="fab fa-github"></i></span></a>
 					<a href="https://www.linkedin.com/in/kathleenmattos/" class="ml-2 linkedin"><span class="links"><i class="fab fa-linkedin"></i></span></a>
 				</div>
+			</div>
 		</section>
 	</body>
 
