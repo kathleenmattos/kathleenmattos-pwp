@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<link rel="stylesheet" type="text/css" href="../styles">
 		<title>KM PWP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -36,7 +36,7 @@
 
 	<body>
 		<header>
-		<!------------------Navbar------------------------>
+			<!------------------Navbar------------------------>
 			<!--	<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 					<div class="container">
 						<a class="navbar-brand" href="#">Kathleen Mattos</a>
@@ -62,7 +62,7 @@
 					</div>
 				</nav> -->
 
-		<!-- try sticky top and check out bootstrap examples-->
+			<!-- try sticky top and check out bootstrap examples-->
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar px-4 shadow-sm p-3 mb-5 bg-white">
 				<a class="navbar-brand text-white" href="#">Kathleen Mattos</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,7 @@
 			</div>
 		</header>
 
-	<!-----------------------About Me----------------------------->
+		<!-----------------------About Me----------------------------->
 		<section id="aboutMe">
 			<div class="container text-white text-wrap py-5 px-5">
 				<h3>About Me</h3>
@@ -123,9 +123,9 @@
 				<!--Add skill chart thing-->
 				<div class="row text-center my-5">
 					<div class="col-md-6">
-					<h5>Tech </h5>
+						<h5>Tech </h5>
 						<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian.</p>
-						</div>
+					</div>
 					<div class="col-md-6">
 						<h5>soft skills</h5>
 						<p>Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten.</p>
@@ -141,15 +141,15 @@
 				<!--card deck-->
 				<div class="row text-center my-5">
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="../hiddenFaceOne.jpg" alt="Hidden Face One">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face One">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="../hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="../hiddenFaceOne.jpg" alt="Gentleman Cat">
+						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Gentleman Cat">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 				</div>
@@ -158,41 +158,42 @@
 
 		<!--Contact Me-->
 		<section id="contactMe">
-				<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
-					<form method="post">
-						<h3>Send Me a Message</h3>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-								</div>
-								<div class="form-group">
-									<input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-								</div>
-								<div class="form-group">
-									<input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-								</div>
-
-								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
-
-
-								<div class="form-group">
-									<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-								</div>
+			<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
+				<form method="post">
+					<h3>Send Me a Message</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" name="textName" class="form-control" placeholder="Your Name *" value="" />
+							</div>
+							<div class="form-group">
+								<input type="text" name="textEmail" class="form-control" placeholder="Your Email *" value="" />
+							</div>
+							<div class="form-group">
+								<input type="text" name="textSubject" class="form-control" placeholder="Your Subject *" value="" />
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+									<textarea name="textMessage" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
 								</div>
+							</div>
+<!--todo change number to subject-->
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
+
+
+							<div class="form-group">
+								<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
 							</div>
 						</div>
-					</form>
 
-					<!---end contact form empty // area for form error/success output--->
-					<div id="output-area"></div>
+					</div>
+				</form>
 
-				</div>
+				<!---end contact form empty // area for form error/success output--->
+				<div id="output-area"></div>
+
+			</div>
 		</section>
 
 		<!--Find Me/ footer?-->
