@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="../styles">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
 		<title>KM PWP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-		<!--bootstraop css-->
+		<!--bootstrap css-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!--bootstrap js-->
@@ -172,24 +172,23 @@
 							<div class="form-group">
 								<input type="text" name="textSubject" class="form-control" placeholder="Your Subject *" value="" />
 							</div>
+						</div>
 							<div class="col-md-6">
 								<div class="form-group">
 									<textarea name="textMessage" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
 								</div>
 							</div>
-<!--todo change number to subject-->
+					</div>
+
 							<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
 
-
 							<div class="form-group">
 								<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+								<input type="reset" name="btnReset" class="btnContact" value="Reset" />
 							</div>
-						</div>
 
-					</div>
 				</form>
-
 				<!---end contact form empty // area for form error/success output--->
 				<div id="output-area"></div>
 

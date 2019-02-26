@@ -23,6 +23,7 @@ $(document).ready(function() {
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
+
 		//rules here define what is good or bad input, and each rule starts with the form input element's name
 		rules: {
 			textName: {
@@ -64,6 +65,7 @@ $(document).ready(function() {
 			$("#contactMe").ajaxSubmit({
 				type: "POST",
 				url:$("#contactMe").attr("action"),
+
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
 					$("#output-area").css("display", "");
