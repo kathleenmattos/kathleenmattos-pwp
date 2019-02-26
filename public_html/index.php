@@ -11,7 +11,7 @@
 
 		<!--bootstrap js-->
 		<!--todo change slim to min-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -28,8 +28,12 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
+
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
+
+
+
 
 
 
@@ -119,15 +123,15 @@
 				<!--card deck-->
 				<div class="row text-center my-5">
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Hidden Face One">
+						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Hidden Face One">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
+						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="hiddenFaceOne.jpg" alt="Gentleman Cat">
+						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Gentleman Cat">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 				</div>
@@ -135,25 +139,42 @@
 		</section>
 
 		<!--             Contact Me                  -->
-		<section id="contactMe">
+		<section id="contactWrapper">
 			<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
-				<form method="post">
+				<form id="contactMe" action="PHP/mailer.php" method="post">
 					<h3>Send Me a Message</h3>
 					<div class="row">
 						<div class="col-md-6">
+
+
 							<div class="form-group">
-								<input type="text" name="textName" class="form-control" placeholder="Your Name *" value="" />
+								<label for="textName">Name</label>
+								<div class="import-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"></span>
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div>
+									<input type="text" id="textName" name="textName" class="form-control" placeholder="Your Name *" />
+								</div>
+
+							</div>
+
+
+
+
+							<!--<div class="form-group">
+								<input type="text" id="textName" name="textName" class="form-control" placeholder="Your Name *" />
+							</div>-->
+							<div class="form-group">
+								<input type="text" id="textEmail" name="textEmail" class="form-control" placeholder="Your Email *"/>
 							</div>
 							<div class="form-group">
-								<input type="text" name="textEmail" class="form-control" placeholder="Your Email *" value="" />
-							</div>
-							<div class="form-group">
-								<input type="text" name="textSubject" class="form-control" placeholder="Your Subject *" value="" />
+								<input type="text" id="textSubject" name="textSubject" class="form-control" placeholder="Your Subject *"/>
 							</div>
 						</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<textarea name="textMessage" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+									<textarea name="textMessage" id="textMessage" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
 								</div>
 							</div>
 					</div>
@@ -161,10 +182,13 @@
 							<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
 
-							<div class="form-group">
-								<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-								<input type="reset" name="btnReset" class="btnContact" value="Reset" />
-							</div>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
+						<!--	<div class="form-group">
+
+								 input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+								<input type="reset" name="btnReset" class="btnContact" value="Reset" /></div> -->
 
 				</form>
 				<!--end contact form empty // area for form error/success output-->
