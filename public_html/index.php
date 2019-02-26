@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!--bootstrap js-->
+		<!--todo change slim to min-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -20,8 +21,9 @@
 		<!--dependencies for contact form-->
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -36,31 +38,7 @@
 
 	<body>
 		<header>
-			<!------------------Navbar------------------------>
-			<!--	<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-					<div class="container">
-						<a class="navbar-brand" href="#">Kathleen Mattos</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedConentent-7" aria-controls="navBarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a class="nav-link" href="#">About Me <span class="sr-only">(current)</span> </a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Skills</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Portfolio</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Contact Me</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav> -->
+			<!--              Navbar                   -->
 
 			<!-- try sticky top and check out bootstrap examples-->
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar px-4 shadow-sm p-3 mb-5 bg-white">
@@ -88,7 +66,7 @@
 			</nav>
 
 
-			<!-------------------Full page background image------------------------->
+			<!--                    Full page background image                       -->
 			<div class="view" id="backgroundImage">
 				<!--Mask and flexbox-->
 				<div class="mask rgba-black-light align-items-center">
@@ -106,7 +84,7 @@
 			</div>
 		</header>
 
-		<!-----------------------About Me----------------------------->
+		<!--                   About Me                        -->
 		<section id="aboutMe">
 			<div class="container text-white text-wrap py-5 px-5">
 				<h3>About Me</h3>
@@ -115,7 +93,7 @@
 			</div>
 		</section>
 
-		<!------------------Skills------------------------------------->
+		<!--                   Skills                          -->
 		<section id="skills">
 			<div class="container text-wrap text-white py-5 px-5">
 				<h3>Skills</h3>
@@ -134,7 +112,7 @@
 			</div>
 		</section>
 
-		<!---------------------Portfolio---------------------------->
+		<!--                 Portfolio                         -->
 		<section id="portfolio">
 			<div class="container text-wrap px-5 py-5">
 				<h3>Portfolio</h3>
@@ -156,7 +134,7 @@
 			</div>
 		</section>
 
-		<!--Contact Me-->
+		<!--             Contact Me                  -->
 		<section id="contactMe">
 			<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
 				<form method="post">
@@ -189,13 +167,13 @@
 							</div>
 
 				</form>
-				<!---end contact form empty // area for form error/success output--->
+				<!--end contact form empty // area for form error/success output-->
 				<div id="output-area"></div>
 
 			</div>
 		</section>
 
-		<!--Find Me/ footer?-->
+		<!--                  Find Me/ footer?                     -->
 		<section id="findMe">
 			<div class="container-fluid text-center text-white py-3">
 				<div class="row d-flex justify-content-center align-items-center pl-2">
