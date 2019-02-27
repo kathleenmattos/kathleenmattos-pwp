@@ -24,27 +24,19 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
-
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
-
-
-
-
-
-
 
 	</head>
 
 	<body>
 		<header>
-			<!--              Navbar                   -->
 
-			<!-- try sticky top and check out bootstrap examples-->
+			<!--              Navbar                   -->
+			<!-- todo try sticky top and check out bootstrap examples-->
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar px-4 shadow-sm p-3 mb-5 bg-white">
 				<a class="navbar-brand text-white" href="#">Kathleen Mattos</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -145,8 +137,6 @@
 					<h3>Send Me a Message</h3>
 					<div class="row">
 						<div class="col-md-6">
-
-
 							<div class="form-group">
 								<label for="textName">Name</label>
 								<div class="import-group">
@@ -156,15 +146,7 @@
 									</div>
 									<input type="text" id="textName" name="textName" class="form-control" placeholder="Your Name *" />
 								</div>
-
 							</div>
-
-
-
-
-							<!--<div class="form-group">
-								<input type="text" id="textName" name="textName" class="form-control" placeholder="Your Name *" />
-							</div>-->
 							<div class="form-group">
 								<input type="text" id="textEmail" name="textEmail" class="form-control" placeholder="Your Email *"/>
 							</div>
@@ -185,15 +167,11 @@
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 
-						<!--	<div class="form-group">
-
-								 input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-								<input type="reset" name="btnReset" class="btnContact" value="Reset" /></div> -->
-
 				</form>
-				<!--end contact form empty // area for form error/success output-->
-				<div id="output-area"></div>
 
+				<!--end contact form empty // area for form error/success output-->
+
+				<div id="output-area"></div>
 			</div>
 		</section>
 
@@ -208,6 +186,5 @@
 			</div>
 		</section>
 	</body>
-
 </html>
 
