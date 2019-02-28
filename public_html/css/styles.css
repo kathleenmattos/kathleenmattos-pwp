@@ -5,6 +5,10 @@ header,
 	height: 100%;
 }
 
+body {
+	font-family: monospace;
+}
+
 /*        Intro section - navbar and image             */
 
 .navbar-brand {
