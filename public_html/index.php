@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src ="js/script.js"></script>
 		<title>KM PWP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -46,16 +47,16 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link text-white" href="#">About Me <span class="sr-only">(current)</span></a>
+							<a class="nav-link text-white" href="#aboutMe">About Me <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Skills</a>
+							<a class="nav-link text-white" href="#skills">Skills</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Portfolio</a>
+							<a class="nav-link text-white" href="#portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Contact Me</a>
+							<a class="nav-link text-white" href="#contactWrapper">Contact Me</a>
 						</li>
 					</ul>
 				</div>
@@ -82,7 +83,7 @@
 
 		<!--                   About Me                        -->
 		<section id="aboutMe">
-			<div class="container text-white text-wrap py-5 px-5">
+			<div class="container text-wrap py-5 px-5">
 				<h3>About Me</h3>
 				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
 				<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
@@ -135,7 +136,7 @@
 			<div class="container-fluid contact-form text-white py-5 px-5 text-wrap">
 				<form id="contactMe" action="PHP/mailer.php" method="post">
 					<h3>Send Me a Message</h3>
-					<div class="row">
+					<div class="row mb-1">
 						<div class="col-md-6">
 							<div class="form-group">
 								<div class="import-group">
@@ -155,13 +156,15 @@
 								</div>
 							</div>
 					</div>
-					<div class="py-5">
-							<!-- reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
+						<div class="row justify-content-center py-1 my-2">
+								<!-- reCAPTCHA -->
+								<div class="g-recaptcha py-3" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
+						</div>
+						<div class="row justify-content-center py-1 mt-1">
 							<!--buttons-->
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</div>
+							<button class="btn btn-success mr-2" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning ml-2" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</div>
 				</form>
 				<!--end contact form empty // area for form error/success output-->
 				<div id="output-area"></div>

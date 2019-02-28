@@ -5,6 +5,8 @@ header,
 	height: 100%;
 }
 
+/*        Intro section - navbar and image             */
+
 .navbar-brand {
 	font-size: 4rem;
 	/*color: white;*/
@@ -41,9 +43,7 @@ header,
 	}
 }
 
-/*
-Contact Form
- */
+/*                    Contact Form                           */
 .contact-form{
 	background: #dadfe1;
 	/*margin-top: 10%;
@@ -86,6 +86,14 @@ Contact Form
 	border: none;
 	cursor: pointer;
 }
+
+.g-recaptcha {
+	transform-origin: left top;
+	-webkit-transform-origin: left top;
+}
+
+
+
 
 
 /*     Background colors      */
