@@ -95,7 +95,7 @@
 
 		<!--                   Skills                          -->
 		<section id="skills">
-			<div class="container text-wrap text-white py-5 px-5">
+			<div class="container text-wrap py-5 px-5">
 				<h3><strong>Skills</strong></h3>
 
 				<!--Add skill chart thing-->
@@ -136,7 +136,7 @@
 
 		<!--             Contact Me                  -->
 		<section id="contactWrapper">
-			<div class="container-fluid contact-form text-white py-5 px-5 text-wrap">
+			<div class="container-fluid contact-form py-5 px-5 text-wrap">
 				<form id="contactMe" action="PHP/mailer.php" method="post">
 					<h3><strong>Send Me a Message</strong></h3>
 					<div class="row mb-1">
