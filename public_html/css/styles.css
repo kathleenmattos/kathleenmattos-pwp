@@ -5,10 +5,6 @@ header,
 	height: 100%;
 }
 
-body {
-	font-family: monospace;
-}
-
 /*        Intro section - navbar and image             */
 
 .navbar-brand {
@@ -96,7 +92,10 @@ body {
 	-webkit-transform-origin: left top;
 }
 
+p {
+	font-family: 'Noto Sans JP', sans-serif;
 
+}
 
 
 
@@ -116,4 +115,9 @@ body {
 	color: #f5f5f5;
 }
 
+
+p, h3, h5 {
+	font-family: 'Nunito', sans-serif;;
+
+}
 
