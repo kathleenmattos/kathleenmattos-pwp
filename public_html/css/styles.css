@@ -7,9 +7,9 @@ header,
 
 /*        Intro section - navbar and image             */
 
-.navbar-brand {
+.navbar-brand text-white{
+	font-family: 'Nunito', sans-serif;
 	font-size: 4rem;
-	/*color: white;*/
 }
 
 
@@ -120,4 +120,5 @@ p, h3, h5 {
 	font-family: 'Nunito', sans-serif;;
 
 }
+
 
