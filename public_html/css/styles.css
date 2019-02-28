@@ -45,7 +45,7 @@ header,
 Contact Form
  */
 .contact-form{
-	background: #8c8c8c;
+	background: #dadfe1;
 	/*margin-top: 10%;
 	margin-bottom: 5%;*/
 	width: 70%;
@@ -93,7 +93,7 @@ Contact Form
 #skills,
 #portfolio,
 #contactMe  {
-	background-color: #424242;
+	background-color: #dadfe1;
 }
 
 #findMe {

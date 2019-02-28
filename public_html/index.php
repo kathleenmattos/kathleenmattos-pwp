@@ -132,18 +132,13 @@
 
 		<!--             Contact Me                  -->
 		<section id="contactWrapper">
-			<div class="container contact-form border rounded text-white py-5 px-5 text-wrap">
+			<div class="container-fluid contact-form text-white py-5 px-5 text-wrap">
 				<form id="contactMe" action="PHP/mailer.php" method="post">
 					<h3>Send Me a Message</h3>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label for="textName">Name</label>
 								<div class="import-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text"></span>
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</div>
 									<input type="text" id="textName" name="textName" class="form-control" placeholder="Your Name *" />
 								</div>
 							</div>
@@ -160,17 +155,15 @@
 								</div>
 							</div>
 					</div>
-
+					<div class="py-5">
 							<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6LfNEpQUAAAAAJn5K1m6H0vIcJAQPrhxBecfmqBE"></div>
-
+							<!--buttons-->
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-
+					</div>
 				</form>
-
 				<!--end contact form empty // area for form error/success output-->
-
 				<div id="output-area"></div>
 			</div>
 		</section>
