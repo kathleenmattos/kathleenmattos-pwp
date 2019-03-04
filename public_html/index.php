@@ -69,13 +69,15 @@
 			<!--                    Full page background image                       -->
 			<div class="view" id="backgroundImage">
 				<!--Mask and flexbox-->
-				<div class="mask rgba-black-light align-items-center">
+				<div class="align-items-center">
 					<!--content-->
 					<div class="container-fluid">
 
 						<div class="glitchContainer">
 							<h1 class="glitch">Kathleen Mattos</h1>
 						</div>
+
+						<div class="waves"></div>
 
 
 						<!--grid row-->

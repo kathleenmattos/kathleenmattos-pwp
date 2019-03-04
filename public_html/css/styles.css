@@ -9,7 +9,7 @@ header,
 
 .navbar-brand text-white{
 	font-family: 'Nunito', sans-serif;
-	font-size: 4rem;
+	font-size: 4rem !important;
 }
 
 
@@ -29,9 +29,6 @@ header,
 	}
 }
 
-.top-nav-collapse {
-	background-color: #78909c !important;
-}
 
 .navbar:not(.top-nav-collapse) {
 	background: transparent !important;
@@ -39,7 +36,7 @@ header,
 
 @media (max-width: 991px) {
 	.navbar:not(.top-nav-collapse) {
-		background: rgb(69, 18, 75) !important;
+		background: rgb(0, 204, 195) !important;
 	}
 }
 
@@ -106,7 +103,7 @@ p {
 }
 
 #findMe {
-	background-color: black;
+	background-color: #000000;
 }
 
 .links {
@@ -117,6 +114,14 @@ p {
 p, h3, h5 {
 	font-family: 'Nunito', sans-serif;;
 
+}
+
+h3 {
+	font-size: 3rem !important;
+}
+
+h5 {
+	font-size: 1.75rem !important;
 }
 
 
@@ -131,6 +136,7 @@ p, h3, h5 {
 	display: grid;
 /*	place-items: center;*/
 	justify-content: center;
+	align-items: center;
 	font-size: .5em;
 }
 .glitchContainer .glitch {
@@ -422,4 +428,10 @@ p, h3, h5 {
 	}
 }
 
+.container-fluid {
+	padding: 0 !important;
+}
+
+canvas { display: block; }
+.waves { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 
