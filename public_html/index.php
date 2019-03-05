@@ -67,28 +67,46 @@
 
 
 			<!--                    Full page background image                       -->
-			<div class="view" id="backgroundImage">
+			<div class="view d-flex align-items-center" id="backgroundImage">
 				<!--Mask and flexbox-->
 				<div class="align-items-center">
+<!---->
+<!--					<div class="container" id="bigName">-->
+<!--						<h1>Kathy</h1>-->
+<!--						<h3>gfhdjkskdjhdj</h3>-->
+<!--					</div>-->
 					<!--content-->
-					<div class="container-fluid">
-
-						<div class="glitchContainer">
-							<h1 class="glitch">Kathleen Mattos</h1>
-						</div>
-
-						<div class="waves"></div>
+				<!--	<div class="container-fluid">-->
 
 
-						<!--grid row-->
-						<div class="row">
-							<!--column-->
-							<div class="col-md-12 mb-4 white-text text-right">
-								<!--todo insert blurb-->
 
+
+					<!--	<img id="circles" src="https://media.wired.com/photos/593240cc58b0d64bb35d07d0/master/w_760,c_limit/whyte-a.gif" alt="circle grid">-->
+
+<!--						<div class="glitchContainer">-->
+<!--							<h1 class="glitch">Kathleen Mattos</h1>-->
+<!--							<p>test test test test test</p>-->
+<!--						</div>-->
+
+						<!--<div class="waves"></div>-->
+
+						<div class="container d-flex justify-content-center align-content-center">
+							<div class="jumbotron">
+								<h1 class="display-4 lead">Kathleen Mattos</h1>
+								<h3 class="lead"> Web Developer</h3>
+								<hr class="my-4">
 							</div>
 						</div>
-					</div>
+
+<!--						-grid row-->-
+<!--						<div class="row">-->
+<!--							<column-->-
+<!--							<div class="col-md-12 mb-4 white-text text-right">-->
+<!--								<todo insert blurb-
+<-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
 				</div>
 			</div>
 		</header>

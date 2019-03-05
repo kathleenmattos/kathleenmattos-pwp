@@ -12,6 +12,24 @@ header,
 	font-size: 4rem !important;
 }
 
+#backgroundImage {
+	background-image: url("https://media.wired.com/photos/593240cc58b0d64bb35d07d0/master/w_760,c_limit/whyte-a.gif");
+
+}
+
+#bigName {
+	justify-content: center;
+	align-content: center;
+	padding-left: 1rem;
+	padding-top: 25rem;
+}
+
+/*#backgroundImage  {
+	background-image: url("https://media.wired.com/photos/593240cc58b0d64bb35d07d0/master/w_760,c_limit/whyte-a.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}*/
 
 /*#backgroundImage {
 	background-image: url("http://www.hutterites.org/wp-content/uploads/2012/03/placeholder.jpg");
@@ -110,10 +128,18 @@ p {
 	color: #f5f5f5;
 }
 
+.jumbotron {
+	background: none !important;
+}
 
-p, h3, h5 {
+
+p, h1, h3, h5 {
 	font-family: 'Nunito', sans-serif;;
 
+}
+
+h1 {
+	font-size: 7rem !important;
 }
 
 h3 {
@@ -129,12 +155,13 @@ h5 {
 	width: 110%;
 }*/
 
-@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+
+/*@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
 .glitchContainer {
 	height: 100vh;
-	background: black;
+	background-image: url("https://media.wired.com/photos/593240cc58b0d64bb35d07d0/master/w_760,c_limit/whyte-a.gif");
 	display: grid;
-/*	place-items: center;*/
+/*	place-items: center;
 	justify-content: center;
 	align-items: center;
 	font-size: .5em;
@@ -435,3 +462,4 @@ h5 {
 canvas { display: block; }
 .waves { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 
+*/
