@@ -13,8 +13,7 @@ header,
 }
 
 #backgroundImage {
-	background-image: url("https://media.wired.com/photos/593240cc58b0d64bb35d07d0/master/w_760,c_limit/whyte-a.gif");
-
+	background-image: url("/public_html/images/whyteGif.gif");
 }
 
 #bigName {
