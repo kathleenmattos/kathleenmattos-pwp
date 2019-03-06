@@ -116,15 +116,15 @@
 				<!--card deck-->
 				<div class="row text-center my-5">
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Hidden Face One">
+						<img class="rounded-circle my-3 img-fluid" src="images/comingSoon1.jpg" alt="Hidden Face One">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Cats Playing Beautiful Music">
+						<img class="rounded-circle my-3 img-fluid" src="images/comingSoon2.jpg" alt="Cats Playing Beautiful Music">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 					<div class="col-md-4 p-3">
-						<img class="rounded-circle my-3 img-fluid" src="images/hiddenFaceOne.jpg" alt="Gentleman Cat">
+						<img class="rounded-circle my-3 img-fluid" src="images/comingSoon3.jpg" alt="Gentleman Cat">
 						<p class="bg-light border rounded text-wrap my-2 py-2">Blah blah blah blah blah blahblah blah blah blahblahblah blah blah blah blah blahblah blah blah.</p>
 					</div>
 				</div>
