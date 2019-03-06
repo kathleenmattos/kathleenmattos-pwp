@@ -13,7 +13,7 @@ header,
 }
 
 #backgroundImage {
-	background-image: url("/public_html/images/whyteGif.gif");
+	background-image: url("../images/whyteGif.gif");
 }
 
 #bigName {
