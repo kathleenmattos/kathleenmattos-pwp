@@ -85,6 +85,7 @@
 		<section id="aboutMe">
 				<div class="container text-wrap py-5 px-5">
 					<h3><strong>About Me</strong></h3>
+					<hr>
 					<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
 					<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
 				</div>
@@ -94,6 +95,7 @@
 		<section id="skills">
 			<div class="container text-wrap py-5 px-5">
 					<h3><strong>Skills</strong></h3>
+					<hr>
 
 					<!--Add skill chart thing-->
 					<div class="row text-center my-5">
@@ -119,6 +121,7 @@
 		<section id="portfolio">
 			<div class="container text-wrap px-5 py-5">
 				<h3><strong>Portfolio</strong></h3>
+				<hr>
 				<!--card deck-->
 				<div class="row text-center my-5">
 					<div class="col-md-4 p-3">
@@ -140,6 +143,7 @@
 		<!--             Contact Me                  -->
 		<section id="contactWrapper">
 			<div class="container-fluid contact-form py-5 px-5 text-wrap">
+				<hr>
 				<form id="contactMe" action="PHP/mailer.php" method="post">
 					<h3><strong>Send Me a Message</strong></h3>
 					<div class="row mb-1">
