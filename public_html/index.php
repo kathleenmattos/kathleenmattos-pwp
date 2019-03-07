@@ -86,8 +86,7 @@
 				<div class="container text-wrap py-5 px-5">
 					<h3><strong>About Me</strong></h3>
 					<hr>
-					<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
-					<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
+					<p>Hello there! I am a web developer living in Rio Rancho, NM. I would love to use my skills to help my community, whether it be working for a company or freelancing for smaller projects. I have experience building websites from scratch and strive to make a clean, professional deliverable. I look forward to hearing what ideas you have so I can bring them to life for you! </p>
 				</div>
 		</section>
 
@@ -101,7 +100,7 @@
 					<div class="row text-center my-5">
 						<div class="col-md-6">
 							<h5><strong>Web Development/Design</strong></h5>
-							<p>HTML, CSS, PHP, SQL, Bootstrap, JavaScript, Git version control, Agile Methodology, Angular, Object Oriented Programming, Adobe Photoshop, Adobe Illustrator, and vector graphics.</p>
+							<p>HTML, CSS, PHP, SQL, Bootstrap, JavaScript, Git version control, Agile Methodology, Object Oriented Programming, Adobe Photoshop, Adobe Illustrator, and vector graphics.</p>
 						</div>
 						<div class="col-md-6">
 							<h5><strong>Soft Skills</strong></h5>
