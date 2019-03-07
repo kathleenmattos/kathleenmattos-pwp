@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<script type="text/javascript" src ="js/script.js"></script>
+		<script src ="js/script.js"></script>
 		<title>KM PWP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -72,9 +72,9 @@
 				<div class="align-items-center">
 						<div class="container d-flex justify-content-center align-content-center">
 							<div class="jumbotron">
-								<h1 class="display-4 lead">Kathleen Mattos</h1>
-								<h3 class="lead"> Web Developer</h3>
-								<hr class="my-4">
+									<h1 class="display-4 lead">Kathleen Mattos</h1>
+									<h3 class="lead"> Web Developer</h3>
+									<hr class="my-4">
 							</div>
 						</div>
 				</div>
@@ -83,29 +83,35 @@
 
 		<!--                   About Me                        -->
 		<section id="aboutMe">
-			<div class="container text-wrap py-5 px-5">
-				<h3><strong>About Me</strong></h3>
-				<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
-				<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
-			</div>
+				<div class="container text-wrap py-5 px-5">
+					<h3><strong>About Me</strong></h3>
+					<p> Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten. Malkin tiger for panther yet cougar tom. Singapura himalayan. Panther malkin puma persian havana brown. Egyptian mau bobcat birman so abyssinian bengal cornish rex yet abyssinian . Tomcat puma.</p>
+					<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian. Scottish fold burmese devonshire rex but ocelot munchkin grimalkin scottish fold. American shorthair lion. Cheetah savannah, panther but jaguar ragdoll or egyptian mau donskoy. Sphynx mouser, and scottish fold or munchkin donskoy puma balinese .</p>
+				</div>
 		</section>
 
 		<!--                   Skills                          -->
 		<section id="skills">
 			<div class="container text-wrap py-5 px-5">
-				<h3><strong>Skills</strong></h3>
+					<h3><strong>Skills</strong></h3>
 
-				<!--Add skill chart thing-->
-				<div class="row text-center my-5">
-					<div class="col-md-6">
-						<h5><strong>Tech</strong></h5>
-						<p>Abyssinian munchkin so panther. Thai. British shorthair scottish fold puma. Tiger american shorthair norwegian forest. Munchkin kitty or mouser or turkish angora or siberian.</p>
+					<!--Add skill chart thing-->
+					<div class="row text-center my-5">
+						<div class="col-md-6">
+							<h5><strong>Web Development/Design</strong></h5>
+							<p>HTML, CSS, PHP, SQL, Bootstrap, JavaScript, Git version control, Agile Methodology, Angular, Object Oriented Programming, Adobe Photoshop, Adobe Illustrator, and vector graphics.</p>
+						</div>
+						<div class="col-md-6">
+							<h5><strong>Soft Skills</strong></h5>
+							<ul>
+								<li>Problem Solving</li>
+								<li>Adaptable</li>
+								<li>Creative</li>
+								<li>Highly Motivated</li>
+								<li>Excellent Customer Service</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<h5><strong>soft skills</strong></h5>
-						<p>Mouser balinese thai for malkin tabby and american shorthair. Manx american bobtail so british shorthair american shorthair or birman. Kitten.</p>
-					</div>
-				</div>
 			</div>
 		</section>
 
