@@ -143,7 +143,7 @@
 		<section id="contactWrapper">
 			<div class="container-fluid contact-form py-5 px-5 text-wrap">
 				<hr>
-				<form id="contactMe" action="PHP/mailer.php" method="post">
+				<form id="contactMe" action="../PHP/mailer.php" method="post">
 					<h3><strong>Send Me a Message</strong></h3>
 					<div class="row mb-1">
 						<div class="col-md-6">
